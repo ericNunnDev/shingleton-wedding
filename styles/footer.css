@@ -1,0 +1,19 @@
+#footer {
+    background-color: white;
+    margin: 0 0 50px 0;
+    width: 100%;
+}
+
+#contact-info {
+    border-bottom: 3px inset transparent;
+}
+
+#lowlylogo {
+    border-radius: 15px;
+    height: 25px;
+    width: 28px;
+}
+
+a#contact-email:hover {
+    font-weight: 500;
+}

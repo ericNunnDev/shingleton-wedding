@@ -1,0 +1,58 @@
+@import url(/styles/animate.css);
+@import url(/styles/map-styles.css);
+@import url(/styles/footer.css);
+@import url(/styles/wed-party.css);
+
+
+h2,
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+body,
+html {
+    height: 100%
+}
+
+span {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    line-height: 2
+}
+
+#box-border {
+    border: 5px ridge gray;
+}
+
+.bgimg,
+.bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.bgimg {
+    background-image: url("img/landing_background.jpg")
+}
+
+.bgimg2 {
+    background-image: url("img/trees.jpg")
+}
+
+#main-picture {
+    border: 5px ridge transparent;
+    border-radius: 25px;
+    height: 85em;
+    width: auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+a#venue:hover {
+    font-weight: bolder;
+    text-transform: uppercase;
+}

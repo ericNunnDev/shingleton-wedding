@@ -1,0 +1,36 @@
+.lg-img,
+.med-img,
+.sm-img,
+.bios {
+    border: 5px ridge gray;
+    border-radius: 15px;
+}
+
+.lg-pic {
+    height: 250px;
+    width: auto;
+}
+
+.med-img {
+    height: 150px;
+    width: 150px;
+}
+
+.sm-img {
+    height: 130px;
+    width: 125px;
+}
+
+#britton {
+    width: 150px;
+}
+
+#lauren {
+    width: 120px;
+}
+
+#best-m-bio, #moh-bio {
+    position: relative;
+    margin-left: 35%;
+    width: 30%;
+}
