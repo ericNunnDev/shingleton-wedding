@@ -31,6 +31,7 @@ p {
     min-height: 100%;
     background-position: center;
     background-size: cover;
+    max-width: 100%;
 }
 
 .bgimg {
