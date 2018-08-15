@@ -34,11 +34,11 @@ p {
 }
 
 .bgimg {
-    background-image: url("img/landing_background.jpg")
+    background-image: url("../img/landing_background.jpg")
 }
 
 .bgimg2 {
-    background-image: url("img/trees.jpg")
+    background-image: url("../img/trees.jpg")
 }
 
 #main-picture {
