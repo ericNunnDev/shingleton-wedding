@@ -3,57 +3,104 @@
 @import url(/styles/footer.css);
 @import url(/styles/wed-party.css);
 
+@media only screen and (min-width: 599px) {
 
-h2,
-body {
-    font-family: "Raleway", sans-serif;
+    /* For Mobile   */
+    body,
+    html {
+        height: 100%
+    }
+
+    h2,
+    body {
+        font-family: "Raleway", sans-serif;
+    }
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    span {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    #box-border {
+        border: 2px ridge gray;
+    }
+
+    .bgimg,
+    .bgimg2 {
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .bgimg {
+        background-image: url("../img/landing_background.jpg")
+    }
+
+    .bgimg2 {
+        background-image: url("../img/trees.jpg")
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    a#venue:hover {
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
 }
 
-body,
-html {
-    height: 100%
-}
+@media only screen and (max-width: 598px) {
 
-span {
-    font-family: 'Dancing Script', cursive;
-}
+    /* For Desktop   */
+    body,
+    html {
+        height: 100%
+    }
 
-p {
-    line-height: 2
-}
+    h2,
+    body {
+        font-family: "Raleway", sans-serif;
+    }
 
-#box-border {
-    border: 5px ridge gray;
-}
+    h3 {
+        text-decoration: underline;
+    }
 
-.bgimg,
-.bgimg2 {
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-}
+    span {
+        font-family: 'Dancing Script', cursive;
+    }
 
-.bgimg {
-    background-image: url("../img/landing_background.jpg")
-}
+    #box-border {
+        border: 3px ridge gray;
+    }
 
-.bgimg2 {
-    background-image: url("../img/trees.jpg")
-}
+    .bgimg,
+    .bgimg2 {
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+    }
 
-#main-picture {
-    border: 5px ridge transparent;
-    border-radius: 25px;
-    height: 60em;
-    width: auto;
-}
+    .bgimg {
+        background-image: url("../img/landing_background.jpg")
+    }
 
-a {
-    cursor: pointer;
-}
+    .bgimg2 {
+        background-image: url("../img/trees.jpg")
+    }
 
-a#venue:hover {
-    font-weight: bolder;
-    text-transform: uppercase;
+    a {
+        cursor: pointer;
+    }
+
+    a#venue:hover {
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
 }
