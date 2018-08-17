@@ -1,8 +1,8 @@
 <?php 
-$name = $_POST["name"];
-$number = $_POST["num-guests"];
-$visitor_email = $_POST["email"];
-$song = $_POST["song"];
+$name = $_GET["name"];
+$number = $_GET["num-guests"];
+$visitor_email = $_GET["email"];
+$song = $_GET["song"];
 
 $email_from = "lowlyherotech@gmail.com";
 
