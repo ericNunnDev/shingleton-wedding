@@ -1,8 +1,8 @@
 <?php 
-$name = $_GET["name"];
-$number = $_GET["num-guests"];
-$visitor_email = $_GET["email"];
-$song = $_GET["song"];
+$name = $_POST["name"];
+$number = $_POST["num-guests"];
+$visitor_email = $_POST["email"];
+$song = $_POST["song"];
 
 $email_from = "lowlyherotech@gmail.com";
 
@@ -12,7 +12,7 @@ $email_body = "$name has submitted their RSVP with $number of guests attending. 
 "Here is their e-mail: $email \n"
 "Song Requests: $song\n"
 
-$to = "https://mail.google.com/mail/u/1/#inbox";
+$to = "e.nunn1009@gmail.com";
 
 $headers = "From: $email_from \r\n";
 
