@@ -12,7 +12,7 @@ $email_body = "$name has submitted their RSVP with $number of guests attending. 
 "Here is their e-mail: $email \n"
 "Song Requests: $song\n"
 
-$to = "e.nunn1009@gmail.com";
+$to = "https://mail.google.com/mail/u/1/#inbox";
 
 $headers = "From: $email_from \r\n";
 
