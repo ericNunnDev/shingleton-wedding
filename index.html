@@ -183,27 +183,8 @@
 
                     <!-- START FORM -->
 
-                    <?php
-       $name = $_POST['name'];
-       $guests = $_POST['num-guests'];
-       $email = $_POST['email'];
-       $song = $_POST['song'];
-       $from = 'From: My Contact Form';
-       $to = 'lowlyherotech@gmail.com';
-       $subject = 'RSVP';
-
-       $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-       if ($_POST['submit']) {
-           if (mail ($to, $subject, $body, $from)) {
-           echo '<p>Message Sent Successfully!</p>';
-           } else {
-           echo '<p>Ah! Try again, please?</p>';
-           }
-       }
-    ?>
-
-                        <form action="index.php" method="POST">
+      
+                        <form action="rsvp.php" method="POST">
 
                             <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name" required>
                             <input class="w3-input w3-border w3-margin-top" type="number" placeholder="Number of Guests" name="num-guests" required>
