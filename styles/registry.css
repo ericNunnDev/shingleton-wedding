@@ -1,0 +1,10 @@
+#registries {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.reg-img {
+    height: 20em;
+    padding: 0 50px 0 50px;
+    width: auto;
+}
