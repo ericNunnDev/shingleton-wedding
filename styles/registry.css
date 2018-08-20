@@ -1,19 +1,23 @@
-@media only screen and (min-width: 599px) {
+@media only screen and (max-width: 599px) {
     .reg-img {
-    height: 8em;
-    padding: 0 50px 0 50px;
-    width: auto;    
+        height: ;
+        padding: 0 50px 0 50px;
+        width: auto;
     }
 }
 
-#registries {
-    display: inline-flex;
-    flex-wrap: wrap;
-}
+@media only screen and (min-width: 600px) {
 
 
-.reg-img {
-    height: 17em;
-    padding: 0 50px 0 50px;
-    width: auto;
+    #registries {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+
+    .reg-img {
+        height: 16em;
+        padding: 0 50px 0 50px;
+        width: auto;
+    }
 }
