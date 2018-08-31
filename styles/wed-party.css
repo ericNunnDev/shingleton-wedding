@@ -19,20 +19,12 @@
     margin-top: 5px;
 }
 
-@media screen and only (max-width: 600px) {
-    #jamie,
-    #lauren,
-    #kaci {
-    height: 14em;
-    margin-right: 1rem;
- }
-}
 
 #jamie,
 #lauren,
 #kaci {
     height: 14em;
-    margin-left: 15px;
+    margin: auto;
 }
 
 .best-man, .maid-of-honor {
