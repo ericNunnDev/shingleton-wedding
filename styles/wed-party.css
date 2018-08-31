@@ -19,6 +19,14 @@
     margin-top: 5px;
 }
 
+@media screen and only (max-width: 600px) {
+    #jamie,
+    #lauren,
+    #kaci {
+    height: 14em;
+    margin-left: 10px;
+ }
+}
 
 #jamie,
 #lauren,
