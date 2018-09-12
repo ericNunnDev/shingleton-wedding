@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "For the wedding of Tim &amp; Jackie Shingleton 2018",
     "main": "index.js",
-    "homepage": "https://www.shingletonwedding.io"
+    "homepage": "https://www.shingletonwedding.io",
     "scripts": {
         "deploy": "gh-pages -d dist"
     },
